@@ -1,0 +1,11 @@
+{:deps         true
+ :builds       {:cloud-function {:target           :node-library
+                                 :main             {{root-ns}}.foo/hello
+                                 :output-to        "index.js"
+                                 :compiler-options {:optimizations :simple}
+                                 :exports-var      {{root-ns}}.foo/exports}
+                :test      {:target    :node-test
+                            :output-to "target/{{root-ns}}.js"
+                            :compiler-options {:optimizations :simple}
+                            :autorun   true}
+                }}

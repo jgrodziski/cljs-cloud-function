@@ -1,0 +1,23 @@
+{
+  "name": "{{name}}",
+  "version": "0.1.0",
+  "description": "It's up to you",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "googleapis": "^42.0.0",
+    "isomorphic-ws": "^4.0.1",
+    "node-repl": "^2.0.2",
+    "node-stream-zip": "^1.8.2",
+    "shadow-cljs": "^2.8.45",
+    "ws": "^7.1.1",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "source-map-support": "^0.5.13"
+  }
+}
