@@ -32,6 +32,8 @@ You can install any Node JS library with `npm` and `shadow-cljs`, see: https://s
 
 See [clj-new](https://github.com/seancorfield/clj-new) for invoking the clj-new.create function with the template. 
 
+See the [template's README](https://github.com/jgrodziski/cljs-cloud-function/blob/master/resources/clj/new/cljs_cloud_function/README.md) for information on the usage once the project is generated.
+
 ## License
 
 Copyright © 2019 Jeremie Grodziski
