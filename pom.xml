@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cljs-cloud-function</groupId>
+  <artifactId>cljs-cloud-function</artifactId>
+  <version>0.1.0</version>
+  <name>cljs-cloud-function</name>
+  <url>https://www.github.com/jgrodziski/cljs-cloud-function</url>
+  <scm>
+      <connection>scm:git:git://github.com/jgrodziski/cljs-cloud-function</connection>
+      <developerConnection>scm:git:ssh://github.com/jgrodziski/cljs-cloud-function</developerConnection>
+      <url>https://github.com/jgrodziski/cljs-cloud-function</url>
+  </scm>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.clojure</groupId>
+      <artifactId>clojure</artifactId>
+      <version>1.10.1</version>
+    </dependency>
+  </dependencies>
+  <build>
+      <sourceDirectory>resources</sourceDirectory>
+      <resources>
+          <resource>
+              <directory>src</directory>
+          </resource>
+      </resources>
+  </build>
+  <repositories>
+    <repository>
+      <id>clojars</id>
+      <url>https://repo.clojars.org/</url>
+    </repository>
+  </repositories>
+  <distributionManagement>
+      <repository>
+          <id>clojars</id>
+          <url>https://repo.clojars.org/</url>
+      </repository>
+  </distributionManagement>
+</project>
