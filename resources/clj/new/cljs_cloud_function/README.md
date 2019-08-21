@@ -1,9 +1,13 @@
 # NodeJS & environment prerequisites
 
 Google Cloud Functions target node 10.15.3
+
 To use multiple node versions on your dev machine you can use `nvm`
+
 On Mac, Install nvm with: `brew install nvm` you'll have to add some env var in your .zshrc config
+
 then `nvm install v10.15.3` and `nvm use 10.15.3`
+
 Open a new shell and verify that node is at the version 10.15.3 with `node -v`
 
 # Dev environment
@@ -36,9 +40,9 @@ Invoke the `./deploy.sh` shell script
 
 You can then invoke the cloud function with:
 ```
-curl -X GET "https://YOUR_REGION-YOUR_PROJECT_ID.cloudfunctions.net/FUNCTION_NAME" 
+curl -X GET "https://YOUR_REGION-YOUR_PROJECT_ID.cloudfunctions.net/FUNCTION*NAME" 
 ```
-(FUNCTION_NAME is `myapp`` if you generate the project with: `clj -A:new cljs-cloud-function myname/myapp`)
+(FUNCTION*NAME is `myapp`` if you generate the project with: `clj -A:new cljs-cloud-function myname/myapp`)
 
 # Troubleshooting
 
